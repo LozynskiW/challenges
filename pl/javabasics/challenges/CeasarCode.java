@@ -1,6 +1,4 @@
-package pl.javabasics;
-
-import java.util.ArrayList;
+package pl.javabasics.challenges;
 
 public class CeasarCode {
 

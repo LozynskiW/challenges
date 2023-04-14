@@ -1,4 +1,6 @@
-package pl.javabasics;
+package pl.javabasics.searchalgoritms;
+
+import pl.javabasics.sortingAlgorithms.BubbleSort;
 
 import java.util.Arrays;
 

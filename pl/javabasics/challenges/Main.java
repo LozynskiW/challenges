@@ -34,6 +34,15 @@ public class Main {
         System.out.println(IntegerToRoman.intToRoman(900)); //CM
         System.out.println(IntegerToRoman.intToRoman(95)); //XCV
 
-        System.out.println(Arrays.toString(NumberPhoneCombinations.getAllCombinations("23")));
+        System.out.println(LeetCodeSolutions.removeStars("leet**cod*e"));
+        System.out.println(LeetCodeSolutions.removeStars("erase*****"));
+        System.out.println(LeetCodeSolutions.removeStars("e"));
+
+        System.out.println(LeetCodeSolutions.maxArea(new int[] {1,8,6,2,5,4,8,3,7}));
+        System.out.println(LeetCodeSolutions.maxArea(new int[] {1,1}));
+
+        System.out.println("threeSumClosest");
+        System.out.println(LeetCodeSolutions.threeSumClosest(new int[] {-1,2,1,-4}, 1));
+        System.out.println(LeetCodeSolutions.threeSumClosest(new int[] {0,0,0}, 1));
     }
 }
