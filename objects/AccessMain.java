@@ -13,11 +13,18 @@ public class AccessMain {
 
         float floatNum = 0.23f;
 
-        int intNum = 10;
-
         long longNum = 100000000;
 
-        double doubleNum = longNum;
+        double doubleNum = 20.8d;
+        int intNum = 10;
+
+        System.out.println(doubleNum/intNum);
+
+        System.out.println(intNum/doubleNum);
+
+        System.out.println(20.1/4);
+
+        System.out.println((int) 10.61d);
 
     }
 }

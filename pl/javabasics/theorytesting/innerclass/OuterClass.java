@@ -7,6 +7,8 @@ public class OuterClass {
     private int outerPrivateNum;
     private String outerPrivateString;
 
+    protected int outerProtectedVar;
+
     static int staticInt;
 
     public void printClass() {
@@ -33,19 +35,14 @@ public class OuterClass {
         };
 
     }
-    public class InnerClass {
+    public static class InnerClass {
 
         private String innerString;
 
         private void printClass() {
 
-            OuterClass outerClass = new OuterClass();
+            System.out.println(this.innerString);
 
-            System.out.println(outerClass.outerPrivateString);
-
-            outerClass.printClass();
-
-            outerClass.doNotShow();
         }
     }
 }

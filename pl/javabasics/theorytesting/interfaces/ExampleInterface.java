@@ -6,7 +6,11 @@ public interface ExampleInterface {
 
     public abstract void abstractMethod();
 
-    int defaultMethod(int num);
+    default String print() {
+        return "default method";
+    }
+
+    int normalMethod(int num);
 
     public static String getInterfaceName() {
         return "static methods must contain body";

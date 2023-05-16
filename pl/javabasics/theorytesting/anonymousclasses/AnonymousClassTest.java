@@ -1,5 +1,6 @@
 package pl.javabasics.theorytesting.anonymousclasses;
 
+import pl.javabasics.theorytesting.abstractclass.ExampleAbstractClass;
 import pl.javabasics.theorytesting.interfaces.ExampleInterface;
 
 public class AnonymousClassTest {
@@ -21,8 +22,15 @@ public class AnonymousClassTest {
             }
 
             @Override
-            public int defaultMethod(int num) {
+            public int normalMethod(int num) {
                 return 0;
+            }
+        };
+
+        ExampleAbstractClass exampleAbstractClass = new ExampleAbstractClass(1, "test") {
+            @Override
+            protected void calculate(int a, int b) {
+
             }
         };
     }
