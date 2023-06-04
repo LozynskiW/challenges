@@ -1,7 +1,15 @@
 package pl.javabasics.patterns.factory;
+class GameFactory {
 
-public interface GameFactory {
+    public Game crate(String gameType) {
 
-    Game crate();
+        if (gameType == "single") {
+            return new SingleplayerGame();
+        } else if (gameType == "multiplayer") {
+            return new MultiplayerGame();
+        }
+
+        return null;
+    }
 
 }

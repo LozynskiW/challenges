@@ -7,6 +7,10 @@ public enum NamesEnum {
             return "Fear the Old Blood...";
         }
 
+        @Override
+        public String toString() {
+            return "$classname{}".toLowerCase();
+        }
     },
     GHERMAN(2000) {
         public String getSentence() {
@@ -28,6 +32,11 @@ public enum NamesEnum {
 
     NamesEnum(int health) {
         this.health = health;
+    }
+
+    @Override
+    public String toString() {
+        return "NamesEnum{}".toLowerCase();
     }
 
     public int getHealth(int level) {

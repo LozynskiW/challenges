@@ -21,5 +21,8 @@ public class EnumsMain {
         NamesEnum.StaticClassInEnum staticClassInEnum = new NamesEnum.StaticClassInEnum();
 
         staticClassInEnum.print();
+
+        System.out.println(NamesEnum.GHERMAN.toString());
+        System.out.println(NamesEnum.LAURENCE.toString());
     }
 }

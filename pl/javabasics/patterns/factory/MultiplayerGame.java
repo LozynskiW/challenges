@@ -12,6 +12,9 @@ public class MultiplayerGame implements Game{
         this.isGood = isGood;
     }
 
+    public MultiplayerGame() {
+    }
+
     @Override
     public String getName() {
         return this.name;

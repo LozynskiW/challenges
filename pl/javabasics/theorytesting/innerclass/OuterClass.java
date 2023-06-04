@@ -1,6 +1,7 @@
 package pl.javabasics.theorytesting.innerclass;
 
 import pl.javabasics.theorytesting.abstractclass.ExampleAbstractClass;
+import pl.javabasics.theorytesting.comparators.Employee;
 
 public class OuterClass {
 
@@ -35,7 +36,7 @@ public class OuterClass {
         };
 
     }
-    public static class InnerClass {
+    public static class InnerClass extends Employee {
 
         private String innerString;
 

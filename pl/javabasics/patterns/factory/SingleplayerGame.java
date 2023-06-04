@@ -9,6 +9,10 @@ public class SingleplayerGame implements Game{
         this.isGood = isGood;
     }
 
+    public SingleplayerGame() {
+
+    }
+
     @Override
     public String getName() {
         return this.name;
