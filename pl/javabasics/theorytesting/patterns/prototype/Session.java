@@ -1,4 +1,4 @@
-package pl.javabasics.patterns.prototype;
+package pl.javabasics.theorytesting.patterns.prototype;
 
 import java.util.ArrayList;
 import java.util.List;

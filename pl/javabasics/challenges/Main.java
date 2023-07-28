@@ -1,6 +1,6 @@
 package pl.javabasics.challenges;
 
-import objects.VariablesInit;
+import pl.javabasics.theorytesting.objects.VariablesInit;
 
 import java.util.Arrays;
 import java.util.LinkedList;

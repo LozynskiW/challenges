@@ -1,4 +1,4 @@
-package pl.javabasics.patterns.factory;
+package pl.javabasics.theorytesting.patterns.factory;
 class GameFactory {
 
     public Game crate(String gameType) {

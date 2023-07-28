@@ -1,4 +1,4 @@
-package pl.javabasics.patterns;
+package pl.javabasics.theorytesting.patterns;
 
 public class PatternsMain {
 

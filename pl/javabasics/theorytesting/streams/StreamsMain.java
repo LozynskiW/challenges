@@ -1,7 +1,6 @@
-package pl.javabasics.streams;
+package pl.javabasics.theorytesting.streams;
 
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
 
 public class StreamsMain {

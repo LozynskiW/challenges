@@ -1,4 +1,4 @@
-package pl.javabasics.streams;
+package pl.javabasics.theorytesting.streams;
 
 import java.util.ArrayList;
 import java.util.List;

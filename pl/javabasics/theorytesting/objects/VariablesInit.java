@@ -1,4 +1,4 @@
-package objects;
+package pl.javabasics.theorytesting.objects;
 
 public class VariablesInit {
 

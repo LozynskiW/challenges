@@ -1,4 +1,4 @@
-package pl.javabasics.streams;
+package pl.javabasics.theorytesting.streams;
 
 public class User implements Comparable<User>{
 

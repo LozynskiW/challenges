@@ -1,5 +1,5 @@
 package pl.javabasics;
-import objects.AccessTest;
+import pl.javabasics.theorytesting.objects.AccessTest;
 import pl.javabasics.searchalgoritms.BinaryTreeSearch;
 
 public class Main {
